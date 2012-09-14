@@ -97,8 +97,8 @@ class googlechrome(
     enabled    => $repo_enabled_real,
   }
 
-  package { $package:
-    ensure  => $version,
+  package { $package_real:
+    ensure  => $version_real,
     require => Class['googlechrome::repo'],
   }
 }
