@@ -37,7 +37,7 @@ class googlechrome::params {
   }
 
   $repo_repos = $::googlechrome_repo_repos ? {
-    undef   => 'non-free main',
+    undef   => 'main',
     default => $::googlechrome_repo_release
   }
 
