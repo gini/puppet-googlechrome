@@ -24,7 +24,7 @@ class googlechrome::params {
   }
 
   $repo_key = $::googlechrome_repo_key ? {
-    undef   => '7FAC5991',
+    undef   => '4CCA1EAF950CEE4AB83976DCA040830F7FAC5991',
     default => $::googlechrome_repo_key
   }
 
